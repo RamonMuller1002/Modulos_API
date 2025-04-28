@@ -1,9 +1,23 @@
 [
     {
-    "id": 1,
-    "title": "Desenvolvimento de sistemas",
-    "curso": "Técnico",
-    "turma": "3B",
-    "professor": "Ramon Brignolli"
-}
+        "id": 1,
+        "title": "Desenvolvimento de sistemas",
+        "curso": "Técnico",
+        "turma": "3B",
+        "professor": "Ramon Brignolli"
+    },
+    {
+        "title": "IOT",
+        "curso": "Técnico",
+        "turma": "3B",
+        "professor": "Taiane Reis",
+        "id": 2
+    },
+    {
+        "title": "Modelagem",
+        "curso": "Técnico",
+        "turma": "3B",
+        "professor": "Nathan",
+        "id": 3
+    }
 ]
