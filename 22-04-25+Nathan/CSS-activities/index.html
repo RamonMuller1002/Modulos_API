@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crackfy - Login</title>
+</head>
+<style>
+
+    *{
+        margin: 0;
+        font-family: monospace;
+    }
+    body{
+        display: 100vh;
+        height: 100vh;
+        display: flex;
+        
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        background: linear-gradient(10000deg, #13293D , #006494);
+    }
+    h1{
+        margin: 2vh;
+        padding: 1vh;
+        background-color: red;
+        border-radius: 2vh;
+    }
+    .center{
+        width: auto;
+        height: auto;
+
+        padding: 3vh;
+
+        background: linear-gradient(100deg, #247BA0 , #1B98E0);
+        border: solid black;
+        border-radius: 2vh;
+    }
+    .inputs{
+        display: flex;
+    }
+    form{
+        width: auto;
+        height: auto;
+
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    input{
+        margin: 1.5vh;
+        width: 30vh;
+        height: 5vh;
+        border-radius: 2vh;
+    }
+    #submit{
+        background-color: green;
+        width: 30vh;
+        height: 5vh;
+        border-radius: 5vh;
+    }
+
+</style>
+<body>
+    <header>
+        <h1 class="title">Crackfy</h1>
+    </header>
+
+    <div class="center">
+        <div class="inputs">
+            <form action="Login">
+                <input id="email" type="email" placeholder="Email" required>
+                <input id="password" type="password"  placeholder="Senha" required>
+
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>
